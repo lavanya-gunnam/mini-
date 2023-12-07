@@ -1,0 +1,61 @@
+body {
+  position: relative;
+  height: 100%;
+  background: #eeeeeed1;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* logo */
+
+.logo {
+  width: 100px; /* Set your desired width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* type a head */
+.typeahead {
+  width:150% ;
+  border: 1px solid #ccc; /* Light grey border */
+ 
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 500px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* image */
+.image-link {
+  display: block;  
+  width: 100%;     
+  height: 100%;    
+}
+
+.image-link img {
+  width: 100%;     
+  height: 100%;   
+  object-fit: cover; 
+}
